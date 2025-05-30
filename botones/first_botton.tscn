@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bmyrl108rspex"]
+
+[ext_resource type="Texture2D" uid="uid://cjlu08t0eljxb" path="res://botones/MediavelFree.png" id="1_5fs5f"]
+
+[node name="firstBotton" type="Sprite2D"]
+texture = ExtResource("1_5fs5f")
+region_enabled = true
+region_rect = Rect2(81, 1, 14, 14)
