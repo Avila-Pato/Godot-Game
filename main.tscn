@@ -27,7 +27,7 @@
 [ext_resource type="Script" uid="uid://ttfq3tjw6twm" path="res://animaciones/animated_sprite_2d.gd" id="25_0odxb"]
 [ext_resource type="Theme" uid="uid://cdd386oe7fofo" path="res://botones/theme1.tres" id="26_a6jrf"]
 [ext_resource type="Texture2D" uid="uid://cjlu08t0eljxb" path="res://botones/MediavelFree.png" id="27_xuqvo"]
-[ext_resource type="Script" uid="uid://0avycond0ruo" path="res://my_Button.gd" id="28_qsp4k"]
+[ext_resource type="Script" uid="uid://dbxt5qfja5ws0" path="res://my_Button.gd" id="28_qsp4k"]
 [ext_resource type="FontFile" uid="uid://dbkey1bt4jfo6" path="res://fuentes/GROBOLD.ttf" id="28_xuqvo"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_f6a44"]
