@@ -1,0 +1,246 @@
+[gd_scene load_steps=42 format=3 uid="uid://ddbfgqbw30vcn"]
+
+[ext_resource type="Script" uid="uid://biwva0uo5aoul" path="res://menu/menu_principal.gd" id="1_cme23"]
+[ext_resource type="PackedScene" uid="uid://d4n2jsxv8kbvg" path="res://custom_button.tscn" id="1_yo6f2"]
+[ext_resource type="Texture2D" uid="uid://dyq5qomyeuen" path="res://assets/fondo/download (1).png" id="3_n1h8x"]
+[ext_resource type="Texture2D" uid="uid://bdoai58uox8ux" path="res://assets/fondo/download (2).png" id="4_y4yti"]
+[ext_resource type="Texture2D" uid="uid://b1bbf1tegajkj" path="res://assets/fondo/download (10).png" id="5_d2b4y"]
+[ext_resource type="Texture2D" uid="uid://bpbcsss10nrk2" path="res://assets/fondo/download (11).png" id="6_dokh8"]
+[ext_resource type="Texture2D" uid="uid://d4mm4duvjvjsd" path="res://assets/fondo/download (12).png" id="7_a5ckc"]
+[ext_resource type="Texture2D" uid="uid://cggduyi8psg2v" path="res://assets/fondo/download (13).png" id="8_lo5bc"]
+[ext_resource type="Texture2D" uid="uid://d117fxqmrksry" path="res://assets/fondo/download (14).png" id="9_ggemu"]
+[ext_resource type="Texture2D" uid="uid://c1o2xmc5ae1pt" path="res://assets/fondo/download (15).png" id="10_f0udc"]
+[ext_resource type="Texture2D" uid="uid://crnoe1cdbt5gr" path="res://assets/fondo/download (16).png" id="11_0tlx3"]
+[ext_resource type="Texture2D" uid="uid://dbbrgxjfcruae" path="res://assets/fondo/download (17).png" id="12_ay2po"]
+[ext_resource type="Texture2D" uid="uid://dvorlbxv5xtxj" path="res://assets/fondo/download (18).png" id="13_ahdsj"]
+[ext_resource type="Texture2D" uid="uid://bbww4nr5k4hyt" path="res://assets/fondo/download (19).png" id="14_xpshi"]
+[ext_resource type="Texture2D" uid="uid://d0pfltvc4eke3" path="res://assets/fondo/download (3).png" id="15_xlhdg"]
+[ext_resource type="Texture2D" uid="uid://bwr8u03sl5oai" path="res://assets/fondo/download (20).png" id="16_gitms"]
+[ext_resource type="Texture2D" uid="uid://cpl3rui0no81g" path="res://assets/fondo/download (21).png" id="17_etirt"]
+[ext_resource type="Texture2D" uid="uid://bdavk8psioyp3" path="res://assets/fondo/download (22).png" id="18_ro6qw"]
+[ext_resource type="Texture2D" uid="uid://m42v0i0y6dsb" path="res://assets/fondo/download (23).png" id="19_q8j7b"]
+[ext_resource type="Texture2D" uid="uid://wsspboadtogr" path="res://assets/fondo/download (24).png" id="20_6sjrl"]
+[ext_resource type="Texture2D" uid="uid://d3t2sfk1tuipd" path="res://assets/fondo/download (4).png" id="21_73k2y"]
+[ext_resource type="Texture2D" uid="uid://brxyqynp32fk1" path="res://assets/fondo/download (5).png" id="22_4icl1"]
+[ext_resource type="Texture2D" uid="uid://bn2rvgveex18c" path="res://assets/fondo/download (6).png" id="23_otke6"]
+[ext_resource type="Texture2D" uid="uid://gxnb7c4upao6" path="res://assets/fondo/download (7).png" id="24_n31c0"]
+[ext_resource type="Texture2D" uid="uid://dq17kh1gxr14b" path="res://assets/fondo/download (8).png" id="25_ii5j7"]
+[ext_resource type="Texture2D" uid="uid://d688yli4bpp8" path="res://assets/fondo/download (9).png" id="26_4c0je"]
+[ext_resource type="Texture2D" uid="uid://cjlu08t0eljxb" path="res://botones/MediavelFree.png" id="26_y4yti"]
+[ext_resource type="FontFile" uid="uid://dbkey1bt4jfo6" path="res://fuentes/GROBOLD.ttf" id="27_d2b4y"]
+[ext_resource type="Theme" uid="uid://dhptcloti1tpb" path="res://menu_theme.tres" id="27_dokh8"]
+
+[sub_resource type="Theme" id="Theme_jaxke"]
+MarginContainer/constants/margin_bottom = 10
+MarginContainer/constants/margin_left = 10
+MarginContainer/constants/margin_right = 10
+MarginContainer/constants/margin_top = 10
+
+[sub_resource type="AnimatedTexture" id="AnimatedTexture_p3atj"]
+frames = 25
+speed_scale = 8.6
+frame_0/texture = ExtResource("3_n1h8x")
+frame_1/texture = ExtResource("4_y4yti")
+frame_1/duration = 1.0
+frame_2/texture = ExtResource("15_xlhdg")
+frame_2/duration = 1.0
+frame_3/texture = ExtResource("15_xlhdg")
+frame_3/duration = 1.0
+frame_4/texture = ExtResource("21_73k2y")
+frame_4/duration = 1.0
+frame_5/texture = ExtResource("22_4icl1")
+frame_5/duration = 1.0
+frame_6/texture = ExtResource("23_otke6")
+frame_6/duration = 1.0
+frame_7/texture = ExtResource("24_n31c0")
+frame_7/duration = 1.0
+frame_8/texture = ExtResource("25_ii5j7")
+frame_8/duration = 1.0
+frame_9/texture = ExtResource("26_4c0je")
+frame_9/duration = 1.0
+frame_10/texture = ExtResource("5_d2b4y")
+frame_10/duration = 1.0
+frame_11/texture = ExtResource("6_dokh8")
+frame_11/duration = 1.0
+frame_12/texture = ExtResource("7_a5ckc")
+frame_12/duration = 1.0
+frame_13/texture = ExtResource("8_lo5bc")
+frame_13/duration = 1.0
+frame_14/texture = ExtResource("9_ggemu")
+frame_14/duration = 1.0
+frame_15/texture = ExtResource("10_f0udc")
+frame_15/duration = 1.0
+frame_16/texture = ExtResource("11_0tlx3")
+frame_16/duration = 1.0
+frame_17/texture = ExtResource("12_ay2po")
+frame_17/duration = 1.0
+frame_18/texture = ExtResource("13_ahdsj")
+frame_18/duration = 1.0
+frame_19/texture = ExtResource("14_xpshi")
+frame_19/duration = 1.0
+frame_20/texture = ExtResource("16_gitms")
+frame_20/duration = 1.0
+frame_21/texture = ExtResource("17_etirt")
+frame_21/duration = 1.0
+frame_22/texture = ExtResource("18_ro6qw")
+frame_22/duration = 1.0
+frame_23/texture = ExtResource("19_q8j7b")
+frame_23/duration = 1.0
+frame_24/texture = ExtResource("20_6sjrl")
+frame_24/duration = 1.0
+
+[sub_resource type="Theme" id="Theme_yo6f2"]
+Label/font_sizes/font_size = 17
+Label/fonts/font = ExtResource("27_d2b4y")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a5ckc"]
+bg_color = Color(0.807843, 0.509804, 0.470588, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d2b4y"]
+bg_color = Color(0.799962, 0.500068, 0.15364, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_size = 1
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dokh8"]
+bg_color = Color(0.808178, 0.508588, 0.470189, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="Theme" id="Theme_dokh8"]
+Button/fonts/font = ExtResource("27_d2b4y")
+Button/styles/hover = SubResource("StyleBoxFlat_a5ckc")
+Button/styles/normal = SubResource("StyleBoxFlat_d2b4y")
+Button/styles/pressed = SubResource("StyleBoxFlat_dokh8")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y4yti"]
+bg_color = Color(0.30426, 0.521095, 0.742002, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f0udc"]
+bg_color = Color(0.807843, 0.509804, 0.470588, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ggemu"]
+bg_color = Color(0.807843, 0.509804, 0.470588, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lo5bc"]
+bg_color = Color(0.8, 0.501961, 0.152941, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_size = 1
+
+[sub_resource type="Theme" id="Theme_ggemu"]
+Button/fonts/font = ExtResource("27_d2b4y")
+Button/styles/hover = SubResource("StyleBoxFlat_f0udc")
+Button/styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_ggemu")
+Button/styles/normal = SubResource("StyleBoxFlat_lo5bc")
+
+[node name="MenuPrincipal" type="Control"]
+process_mode = 2
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_jaxke")
+script = ExtResource("1_cme23")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="fondo" type="TextureRect" parent="MarginContainer"]
+layout_mode = 2
+texture = SubResource("AnimatedTexture_p3atj")
+expand_mode = 1
+
+[node name="Panel" type="TextureRect" parent="MarginContainer/fondo"]
+layout_mode = 2
+offset_left = 452.0
+offset_top = 338.0
+offset_right = 577.0
+offset_bottom = 338.0
+expand_mode = 1
+
+[node name="NinePatchRect" type="NinePatchRect" parent="MarginContainer/fondo/Panel"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -55.0
+offset_top = -330.65
+offset_right = 95.0
+offset_bottom = -129.65
+grow_horizontal = 0
+grow_vertical = 2
+pivot_offset = Vector2(495, 409)
+texture = ExtResource("26_y4yti")
+region_rect = Rect2(3, 1, 71, 92)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/fondo"]
+layout_mode = 2
+offset_left = 547.0
+offset_top = 81.0
+offset_right = 647.0
+offset_bottom = 181.0
+pivot_offset = Vector2(533, 0)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme = ExtResource("27_dokh8")
+theme_override_constants/separation = 9
+alignment = 1
+
+[node name="Label" type="Label" parent="MarginContainer/fondo/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme = SubResource("Theme_yo6f2")
+text = "EcoAceite"
+
+[node name="start" parent="MarginContainer/fondo/VBoxContainer" instance=ExtResource("1_yo6f2")]
+process_mode = 3
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 4
+theme = SubResource("Theme_dokh8")
+theme_override_styles/pressed_mirrored = SubResource("StyleBoxFlat_y4yti")
+
+[node name="exit" parent="MarginContainer/fondo/VBoxContainer" instance=ExtResource("1_yo6f2")]
+process_mode = 3
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 4
+theme = SubResource("Theme_ggemu")
+text = "Salir
+"
+
+[connection signal="pressed" from="MarginContainer/fondo/VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="MarginContainer/fondo/VBoxContainer/exit" to="." method="_on_exit_pressed"]

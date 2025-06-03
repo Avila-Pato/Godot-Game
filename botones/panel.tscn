@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwvs7vp82446t"]
+
+[ext_resource type="Texture2D" uid="uid://cjlu08t0eljxb" path="res://botones/MediavelFree.png" id="1_1ogvi"]
+
+[node name="Panel" type="TextureRect"]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_1ogvi")
+
+[node name="MediavelFree" type="Sprite2D" parent="."]
+position = Vector2(1280, 167)
+texture = ExtResource("1_1ogvi")
+offset = Vector2(-86, -26)
+region_enabled = true
+region_rect = Rect2(3, 1, 71, 92)

@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://gceileepfo0d"]
+
+[ext_resource type="PackedScene" uid="uid://bwvs7vp82446t" path="res://botones/panel.tscn" id="1_c6ujf"]
+[ext_resource type="Texture2D" uid="uid://cjlu08t0eljxb" path="res://botones/MediavelFree.png" id="2_axk45"]
+
+[node name="BoxContainer" type="BoxContainer"]
+visible = false
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MediavelFree" parent="." instance=ExtResource("1_c6ujf")]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 2
+size_flags_vertical = 8
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_axk45")
+stretch_mode = 3

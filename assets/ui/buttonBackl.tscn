@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://4dwc6uawjvk"]
+
+[ext_resource type="Texture2D" uid="uid://cb13wlswxmjjm" path="res://assets/ui/uipack_rpg_sheet.png" id="1_yxlyl"]
+
+[node name="UipackRpgSheet" type="Sprite2D"]
+texture = ExtResource("1_yxlyl")
+region_enabled = true
+region_rect = Rect2(0, 49, 190, 50)

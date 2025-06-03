@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckd0vvn1e1fnm"]
+
+[ext_resource type="AudioStream" uid="uid://iynnomwn8ytv" path="res://audio/cheerful-simple-music-308483.mp3" id="1_g84o6"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_g84o6")
+volume_db = -19.102
+autoplay = true
